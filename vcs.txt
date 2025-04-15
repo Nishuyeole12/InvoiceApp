@@ -1,0 +1,32 @@
+Receiving objects: 100% (3/3), done.
+PS C:\Users\nishi\OneDrive\Desktop\git cia 2> git config --global user.name "Nishuyeole12"
+PS C:\Users\nishi\OneDrive\Desktop\git cia 2> git config --global user.email "nishikantyeole123@gmail.com"
+PS C:\Users\nishi\OneDrive\Desktop\git cia 2> cd .\InvoiceApp\
+PS C:\Users\nishi\OneDrive\Desktop\git cia 2\InvoiceApp> git add .
+PS C:\Users\nishi\OneDrive\Desktop\git cia 2\InvoiceApp> git commit -m "Mi Ajj file add keli"
+[main 30b9d8f] Mi Ajj file add keli
+ 1 file changed, 11 insertions(+)
+ create mode 100644 nishya.html
+PS C:\Users\nishi\OneDrive\Desktop\git cia 2\InvoiceApp> git branch 
+* main
+PS C:\Users\nishi\OneDrive\Desktop\git cia 2\InvoiceApp> git push origin main
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 458 bytes | 229.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/Nishuyeole12/InvoiceApp.git
+   aa673c9..30b9d8f  main -> main
+PS C:\Users\nishi\OneDrive\Desktop\git cia 2\InvoiceApp> git add .
+PS C:\Users\nishi\OneDrive\Desktop\git cia 2\InvoiceApp> git commit -m "style add keli"
+[main b33083a] style add keli
+ 1 file changed, 5 insertions(+)
+PS C:\Users\nishi\OneDrive\Desktop\git cia 2\InvoiceApp> git push origin Searchfeatures
+error: src refspec Searchfeatures does not match any
+error: failed to push some refs to 'https://github.com/Nishuyeole12/InvoiceApp.git'
+PS C:\Users\nishi\OneDrive\Desktop\git cia 2\InvoiceApp> git branch
+* main
+PS C:\Users\nishi\OneDrive\Desktop\git cia 2\InvoiceApp> git checkout -b Searchfeatures
+Switched to a new branch 'Searchfeatures'
+PS C:\Users\nishi\OneDrive\Desktop\git cia 2\InvoiceApp> git push origin Searchfeatures
